@@ -1,0 +1,23 @@
+
+ .homeScreen{
+    display: flex;
+    background-color: #F4F1DE;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    transition: all 1s ease;
+    /*background-color: #e9ecef; */
+
+    &.active{
+        display: flex;
+        background-color: #F4F1DE;
+        width: calc( 100% - 244px);
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
+}
+.post_side{
+    display: inline;
+}
